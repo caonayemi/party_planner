@@ -6,6 +6,7 @@ class CreateGuests < ActiveRecord::Migration
       t.string  :last_name
       t.string  :priority
       t.boolean :is_head_of_household
+      t.boolean :is_partner
       t.string  :age_group
       t.string  :address_line_1
       t.string  :address_line_2
